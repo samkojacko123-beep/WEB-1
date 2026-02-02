@@ -31,6 +31,10 @@
             color: var(--dark);
             line-height: 1.7;
         }
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 90px;
+    }
 
         h1, h2, h3 {
             font-family: 'Playfair Display', serif;
@@ -176,16 +180,18 @@
     <div class="container nav">
         <div class="logo">Duševné zdravie študentov</div>
         <ul>
-            <li><a href="#">Úvod</a></li>
-            <li><a href="#">Stres</a></li>
-            <li><a href="#">Imunita</a></li>
-            <li><a href="#">Prevencia</a></li>
-            <li><a href="#">Zdroje</a></li>
-        </ul>
+    <li><a href="#uvod">Úvod</a></li>
+    <li><a href="#stres">Stres</a></li>
+    <li><a href="#dusevne-zdravie">Duševné zdravie</a></li>
+    <li><a href="#zivotny-styl">Životný štýl</a></li>
+    <li><a href="#test">Test stresu</a></li>
+    <li><a href="#pomoc">Pomoc</a></li>
+</ul>
+
     </div>
 </header>
 
-<section class="hero">
+<section class="hero" id="uvod">
     <div class="container">
         <div class="hero-content">
             <h1>
@@ -282,7 +288,7 @@
         line-height: 1.6;
     }
 </style>
-<section class="section section-alt">
+<section class="section section-alt" id="stres">
     <div class="container">
 
         <div class="section-header">
@@ -399,7 +405,7 @@
         }
     }
 </style>
-<section class="section">
+<section class="section" id="dusevne-zdravie">
     <div class="container">
 
         <div class="mental-grid">
@@ -549,7 +555,7 @@
         }
     }
 </style>
-<section class="section section-alt">
+<section class="section section-alt" id="zivotny-styl">
     <div class="container">
 
         <div class="lifestyle-grid">
@@ -670,7 +676,7 @@
         line-height: 1.6;
     }
 </style>
-<section class="section">
+<section class="section" id="regeneracia">
     <div class="container">
 
         <div class="section-header">
@@ -756,7 +762,7 @@
         color: var(--dark);
     }
 </style>
-<section class="section section-alt">
+<section class="section section-alt" id="prevencia">
     <div class="container">
         <div class="prevention-wrapper">
 
@@ -905,7 +911,7 @@
         line-height: 1.8;
     }
 </style>
-<section class="section">
+<section class="section" id="mental">
     <div class="container">
         <div class="conclusion-wrapper">
 
@@ -1100,7 +1106,7 @@
         margin-top: 18px;
     }
 </style>
-<section class="section section-alt">
+<section class="section section-alt" id="test">
     <div class="container">
         <div class="test-wrapper">
 
@@ -1275,7 +1281,7 @@
         line-height: 1.8;
     }
 </style>
-<section class="section section-alt">
+<section class="section section-alt" id="pomoc">
     <div class="container">
         <div class="help-wrapper">
 
